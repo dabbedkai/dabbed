@@ -7,7 +7,7 @@ public class Main{
         myLaptop.memory = 222;
         myLaptop.dimension = 20;
         myLaptop.model = "ROG STRIX";
-        myLaptop.condition = 3;
+        myLaptop.condition = "New";
         myLaptop.price = 70000;
 
         myLaptop.printDetails();

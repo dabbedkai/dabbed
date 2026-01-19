@@ -1,11 +1,11 @@
 public class Laptop {
     String brand;
-    double storage;
-    double memory;
-    double dimension;
+    int storage;
+    int memory;
+    int dimension;
     String model;
-    double condition;
-    double price;
+    String condition;
+    int price;
 
     void printDetails(){
         System.out.printf("""
