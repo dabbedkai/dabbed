@@ -44,8 +44,8 @@ public class Week3Activity1 {
             }
         }
 
-        for (int i = 0; i < matrix3x4.length; i++) {
-            System.out.println("Sum of column " + i + " is " + sumColumn(matrix3x4, i));
+        for (int i = 0; i <= matrix3x4.length; i++) {
+            System.out.println("Sum of column " + (i + 1) + " is " + sumColumn(matrix3x4, i));
         }
 
         System.out.println("Enter a 4-by-4 matrix row by row:");
@@ -55,6 +55,7 @@ public class Week3Activity1 {
                 matrix4x4[i][j] = sc.nextDouble();
             }
         }
+
         System.out.println("Sum of the major diag is " + sumMajorDiagonal(matrix4x4));
         System.out.println("Sum of the reverse major diag is " + reverseSumMajorDiagonal(matrix4x4));
     }
