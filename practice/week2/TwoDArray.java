@@ -1,6 +1,7 @@
-package week2;
+package practice.week2;
 
 public class TwoDArray {
+
     public static void main(String[] args) {
         // initialize 2d array
         String[] clothTypes = {"Shirt", "Pants"};
