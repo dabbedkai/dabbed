@@ -1,0 +1,12 @@
+[
+  { "type": "healing" },
+  { "type": "toxic" },
+  { "type": "fireball" },
+  { "type": "mana" },
+  { "type": "shadow" },
+  { "type": "stardust" },
+  { "type": "volcano" },
+  { "type": "moon-tear" },
+  { "type": "eclipse" },
+  { "type": "phoenix" }
+]
